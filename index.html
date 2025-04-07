@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary nav fixed-top container" style="max-width: 1000px;">
+    <div class="container-fluid">
+      <a class="navbar-brand ho" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active ho" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ho" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ho" href="#Education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ho" href="#">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ho" href="#">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ho" href="#contact">Contact</a>
+          </li>
+        </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <section class="container" style="max-width: 1000px; height: 100vh-60px;">
+       <div class="row ">
+       
+       </div>
+      <div>
+        <div class="container-fluid">
+          <div class="row align-items-center height">
+              <!-- Text Column -->
+              <div class="col-md-6 text-center text-md-start">
+                  <h1 class="display-5">Hi, I'm <span class="clr">Padmesh Dwivedi</span></h1>
+                  <h3 class="mb-3">Aspiring Web Developer | AI Enthusiast</h3>
+                  <p class="lead">I'm passionate about building responsive web apps and solving real-world problems with code.</p>
+                  <a href="#contact" class="btn btn-outline me-3 button clr">Contact Me</a>
+                  <a href="https://drive.google.com/file/d/19RdKnHGFsmU0lbDmHYBPPdA-iJMT0PYI/view?usp=drive_link" class="btn btn-outline button clr" download>Download Resume</a>
+              </div>
+  
+              <!-- Image Column -->
+              <div class="text-center col-md-6 text-md-end">
+                  <img src="https://th.bing.com/th/id/OIP.y5h5x8qWW4LgZy3DrMe43QHaHb?rs=1&pid=ImgDetMain" alt="Your Name" class="img-fluid rounded-circle" style="max-width: 300px;">
+              </div>
+          </div>
+      </div>  
+    </section >
+     <!-- About Me Section -->
+    <section class="container py-5" id="about" style="max-width: 1000px; height: 90vh;">
+      <div class="row align-items-center">
+        <div class="col-12 text-center py-5 bold" ><h4>About me</h4></div>
+        <!-- Image Column -->
+        <div class="col-md-6 text-center mb-4 mb-md-0
+        py-5">
+          <img src="https://th.bing.com/th/id/OIP.y5h5x8qWW4LgZy3DrMe43QHaHb?rs=1&pid=ImgDetMain" alt="Padmesh Dwivedi" class="img-fluid rounded circle" style="max-width: 300px;">
+        </div>
+        
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <p class="lead " style="font-weight: 50;">
+            I’m Padmesh Dwivedi, a passionate web developer and AI/ML enthusiast currently pursuing a degree in Computer Science. I enjoy solving real-world problems with code and creating user-friendly, responsive web applications. With a strong foundation in DSA and backend development, I constantly strive to learn new technologies and improve my skills. I'm driven by curiosity, creativity, and a love for technology that makes a difference.
+          </p>
+          <div class="row justify-content-evenly">
+            <div class="col">
+              <div class="row align-items-center">
+                <div class="col text-center bold"><h3>8.9</h3></div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col text-center bold">Aggregate CGPA</div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row align-items-center">
+                <div class="col text-center bold"><h3>10+</h3></div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col text-center bold">Projects</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!--Education-->
+    <section id="Education" class="container margin py-5"  style="max-width: 1000px; height: 85vh; background-color: white;">
+      <div class="row" style="height: 20px;"></div>
+      <div class="text-center mb-4">
+        <h3 class="fw-bold">Education</h3>
+      </div>
+    
+      <!-- Detail popup (Optional Hidden Section) -->
+      <div id="edudetail" class="d-none glass mt-5 pt-5  white">
+        <div class="container p-4 rounded shadow-sm bgclr">
+          <div class="d-flex justify-content-between align-items-start bgclr">
+            <div class="bgclr">
+              <p class="fw-bold" id="cls">High School</p>
+              <p id="sub">UP BOARD</p>
+              <p id="sco">98%</p>
+              <p id="School">SVM</p>
+            </div>
+            <i class="fa-solid fa-xmark" id="cross" role="button"></i>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Main Education Cards -->
+      <div class="container mt-5 pt-5" id="content">
+        <div class="row g-4">
+          <!-- Left Column -->
+          <div class="col-md-6">
+            <!-- High School -->
+            <div class="border rounded p-3 d-flex flex-column gap-1 shadow-sm">
+              <span class="fw-bold">HIGH SCHOOL</span>
+              <span>UP BOARD</span>
+              <span>85.83%</span>
+              <span>
+                <a href="#" class="text-decoration-none ten clr">Detail</a>
+                <i class="fa-solid fa-angle-right ms-1"></i>
+              </span>
+            </div>
+    
+            <!-- Graduation -->
+            
+          </div>
+    
+          <!-- Right Column -->
+          <div class="col-md-6">
+            <!-- Intermediate -->
+            <div class="border rounded p-3 d-flex flex-column gap-1 shadow-sm">
+              <span class="fw-bold">INTERMEDIATE</span>
+              <span>UP BOARD</span>
+              <span>84.6%</span>
+              <span>
+                <a href="#" class="text-decoration-none twe clr">Detail</a>
+                <i class="fa-solid fa-angle-right ms-1"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col">
+              <div class="border rounded p-3 d-flex flex-column gap-1 mt-4 shadow-sm">
+                  <span class="fw-bold">GRADUATION</span>
+                  <span>AKTU</span>
+                  <span>8.8 SGPA</span>
+                  <span>
+                    <a href="#" class="text-decoration-none gra clr">Detail</a>
+                    <i class="fa-solid fa-angle-right ms-1"></i>
+                  </span>
+                </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+     <section class="container py-5" id="project" style="max-width: 1000px; height: 90vh;">
+      <div class="row">
+        <div class="col text-center py-5"><h4>Project</h4></div>
+      </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item d-flex justify-content-center align-items-center">
+            <img src="https://www.alreadycoded.com/wp-content/uploads/World_Weather_Forecast_API_Script_.jpg" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item d-flex justify-content-center align-items-center">
+            <img src="https://www.alreadycoded.com/wp-content/uploads/World_Weather_Forecast_API_Script_.jpg" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item d-flex justify-content-center align-items-center">
+            <img src="https://www.alreadycoded.com/wp-content/uploads/World_Weather_Forecast_API_Script_.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" id="clr" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+     </section>
+
+    <!-- Contact Section -->
+<section class="container py-5" id="contact" style="max-width: 1000px; height: 90vh;">
+  <div class="row" style="height: 20px;"></div>
+  <h2 class="text-center mb-4">Contact Me</h2>
+  <p class="text-center mb-5 lead">Have a question or want to work together? Fill out the form below and I’ll get back to you soon!</p>
+
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Write your message"></textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn px-4 button">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <footer class="bgclr text-white text-center py-2 mt-5">
+    <div class="container">
+      <p class="mb-2">© 2025 Padmesh Dwivedi. All rights reserved.</p>
+      <p class="mb-0">
+        Built with <i class="fas fa-heart" style="color: white;"></i> using HTML, CSS, Bootstrap, and passion.
+      </p>
+    </div>
+  </footer>
+
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
